@@ -1,0 +1,6 @@
+m = int(input())
+set1 = set(map(int, input().split()))
+n = int(input())
+set2 = set(map(int, input().split()))
+for x in sorted(set1 ^ set2):
+    print(x)
